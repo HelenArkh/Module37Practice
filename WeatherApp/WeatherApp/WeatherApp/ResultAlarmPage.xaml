@@ -4,7 +4,7 @@
              x:Class="WeatherApp.ResultAlarmPage">
     <ContentPage.Content>
         <StackLayout x:Name="stackLayout" VerticalOptions="Center" HorizontalOptions="Center">
-            <Label Text="Будильник сработает:"
+            <Label Text="Будильник сработает:" FontSize="20"
                 VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
         </StackLayout>
     </ContentPage.Content>

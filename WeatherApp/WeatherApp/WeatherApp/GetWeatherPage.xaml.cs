@@ -16,11 +16,17 @@ namespace WeatherApp
             InitializeComponent();
 
             weatherButton.Clicked += Weather_Click;
+            alarmButton.Clicked += Alarm_Click;
         }
 
         private async void Weather_Click(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new WeatherPage());
+        }
+
+        private async void Alarm_Click(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AlarmPage());
         }
     }
 }

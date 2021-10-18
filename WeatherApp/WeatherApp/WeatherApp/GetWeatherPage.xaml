@@ -5,6 +5,7 @@ x:Class="WeatherApp.GetWeatherPage">
 
     <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
         <Label Text="Welcome to WeatherApp!" FontSize="Title" Padding="30,10,30,10" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
-        <Button x:Name="weatherButton" Text="GET WEATHER" Clicked="Weather_Click" />
+        <Button x:Name="weatherButton" Text="УЗНАТЬ ПОГОДУ" Clicked="Weather_Click" />
+        <Button x:Name="alarmButton" Text="УСТАНОВИТЬ БУДИЛЬНИК" Clicked="Alarm_Click" />
     </StackLayout>
 </ContentPage>
